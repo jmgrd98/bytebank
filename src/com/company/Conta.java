@@ -5,6 +5,12 @@ public class Conta {
     private Cliente titular;
     private double saldo;
 
+    public Conta(int numero, Cliente titular, double saldo) {
+        this.numero = numero;
+        this.titular = titular;
+        this.saldo = saldo;
+    }
+
     public int getNumero(int numero) {
         System.out.println("Número: " + this.numero);
         return this.numero;

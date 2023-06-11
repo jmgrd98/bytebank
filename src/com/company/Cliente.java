@@ -6,6 +6,13 @@ public class Cliente {
     private String profissao;
     private int idade;
 
+    public Cliente(String nome, String cpf, String profissao, int idade) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.profissao = profissao;
+        this.idade = idade;
+    }
+
     public String getNome(String nome) {
         System.out.println("Nome: " + this.nome);
         return this.nome;
