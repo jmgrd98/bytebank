@@ -46,6 +46,10 @@ public class Conta {
         };
     };
 
+    public void saldoAtual() {
+        System.out.println("Saldo atual: " + this.saldo);
+    };
+
     public void deposita(double valor) {
         this.saldo += valor;
         System.out.println("Depósito realizado com sucesso!");
